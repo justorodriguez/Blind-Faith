@@ -1,0 +1,308 @@
+body
+{
+	background: #f2ede9;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+footer
+{
+	background-color: #9c94f7;
+	
+	left: 0;
+	bottom: 0;
+	height: 250px;
+	width: 100%;
+}
+
+
+
+.header
+{
+	display: flex;	
+	width: 99%;
+	flex-wrap: wrap;	
+	margin-left: 10px;
+	height: 100px;
+	position: sticky;
+}
+
+/*LOGIN BUTTON*/
+#link1
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	bottom: 0;
+	right: 123px;
+	height: 30px;
+	transition: height .5s;
+	
+}
+
+#link1:hover
+{
+	background: #1C6EA4;
+	height: 50px;
+}
+
+#link1:active 
+{
+background: #FFFFFF;
+}
+
+
+
+/*JOIN BUTTON*/
+#link2
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	bottom: 0;
+	right: 270px;
+	height: 30px;
+	transition: height .5s;
+}
+
+#link2:hover
+{
+	background: #1C6EA4;
+	height: 50px;
+}
+
+#link2:active 
+{
+background: #FFFFFF;
+}
+
+
+/*DONATE BUTTON*/
+#donate
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	position: absolute;
+	right: 6px;
+	bottom: 0;
+	height: 30px;
+	transition: height .5s;
+	
+}
+#donate:hover
+{
+	background: #1C6EA4;
+	height: 50px;
+}
+
+#donate:active 
+{
+background: #FFFFFF;
+}
+
+
+
+.headline
+{
+	background: white;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.q1
+{
+	background: white;
+	text-align: center;
+	margin: auto;
+	width: 75%;
+}
+
+#once
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 40px 40px;
+}
+
+#once:hover
+{
+	background: #1C6EA4;
+}
+
+#once:active
+{
+	background: #FFFFFF;
+}
+
+#Monthly
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 40px 40px;
+}
+
+#Monthly:hover
+{
+	background: #1C6EA4;
+}
+
+#Monthly:active
+{
+	background: #FFFFFF;
+}
+
+#Yearly
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 40px 40px;
+}
+
+#Yearly:hover
+{
+	background: #1C6EA4;
+}
+
+#Yearly:active
+{
+	background: #FFFFFF;
+}
+
+
+.q2
+{
+	background: white;
+	text-align: center;
+	margin: auto;
+	width: 75%;
+}
+
+#no
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 40px 40px;
+}
+
+#no:hover
+{
+	background: #1C6EA4;
+}
+
+#no:active
+{
+	background: #FFFFFF;
+}
+
+#yes
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 40px 40px;
+}
+
+#yes:hover
+{
+	background: #1C6EA4;
+}
+
+#yes:active
+{
+	background: #FFFFFF;
+}
+
+
+.q3
+{
+	background: white;
+	text-align: center;
+	margin: auto;
+	width: 75%;
+
+}
+
+.q4
+{
+	background: white;
+	text-align: center;
+	margin: auto;
+	width: 75%;
+}
+
+/*FOOTER LINKS*/
+.CL
+{
+	margin-left: 50%;
+	padding-top: 50px;	
+}
+
+.AL
+{
+	margin-left: 50%;
+	padding-top: 50px;
+}
+
+.FL
+{
+	margin-left: 50%;
+	padding-top: 50px;
+	
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}

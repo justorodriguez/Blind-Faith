@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Donate Page</title>
+		
+		<link rel="stylesheet" type="text/css" href="DonateStyle.css">
+
+	</head>
+
+	<header class="header">
+			<div id="logo"><img src="logo.jpeg" style="width: 100px; height: 100px;"></div>
+			<div id="link1"><a href="Blindsite Login.html">LOGIN</a></div>
+			<div id="link2">JOIN</div>
+			<div id="donate"><a href="Blindsite Donate.html">DONATE</a></div>
+	</header>
+
+	<body>
+		
+		<div>
+			
+			<div class="headline">
+			<h1>Make a Donation</h1>
+			<p>All the donations we receive will go towards research and equipment for the visually impaired</p>
+			</div>
+
+			<div class="q1">
+			<p> 1. How often would you like to donate?</p>
+			<div class="option" id="once">ONCE</div>
+			<div class="option" id="Monthly">MONTHLY</div>
+			<div class="option" id="Yearly">YEARLY</div>
+
+			</div>
+
+			<div class="q2">
+			<p> 2. Is this donation Anonymous?</p>
+			<div class="option" id="no">NO</div>
+			<div class="option" id="yes">YES</div>
+
+			<p>   If no, Who is the Donor?</p>
+
+			<form action="/action_page.php">
+				<input type="text" id="fname" placeholder="FIRST NAME" name="fname"><br><br>
+				<input type="text" id="lname" placeholder="LAST NAME" name="lname"><br><br>
+			</form>
+
+			</div>
+
+			<div class="q3">
+			<p> 3. What is your email address?</p>
+			<form action="/action_page.php">
+				<input type="text" id="fname" placeholder="EMAIL ADDRESS" name="fname"><br><br>
+			</form>
+
+			</div>
+
+			<div class="q4">
+			<p> 4. How would you like to donate?</p>
+
+			<div class="options">
+				<img id="pp" src="PayPal-Logo1.png">
+				<img id="visa" src="Visa.png">
+			</div>
+
+						<div class="dropdown">
+			  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+			  <div id="myDropdown" class="dropdown-content">
+			    <a href="#home">Home</a>
+			    <a href="#about">About</a>
+			    <a href="#contact">Contact</a>
+			  </div>
+			</div>
+
+			</div>
+			
+
+
+
+		</div>
+
+		<footer>
+		<div class="CL"><a id="ContactLink" href="Blindsite.com/Contact" >Contact Us</a></div>
+		<div class="AL"><a id="ABOUTLink">About Us</a></div>
+		<div class="FL"><a id="FAQLink">FAQs</a></div>
+	</footer>
+		
+
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+	</body>
+
+
+
+
+
+
+	</html>
