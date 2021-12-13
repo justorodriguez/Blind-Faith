@@ -5,7 +5,114 @@ body
 }
 
 
+.header
+{
+	display: flex;	
+	width: 99%;
+	flex-wrap: wrap;	
+	margin-left: 10px;
+	height: 100px;
+	position: sticky;
+}
 
+#logo
+{
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	left: 5px;
+
+
+}
+
+/*LOGIN BUTTON*/
+#link1
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	bottom: 0;
+	right: 123px;
+	height: 30px;
+	transition: height .5s;
+	
+}
+
+#link1:hover
+{
+	background: #1C6EA4;
+	height: 50px;
+}
+
+#link1:active 
+{
+background: #FFFFFF;
+}
+
+
+
+/*JOIN BUTTON*/
+#link2
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	bottom: 0;
+	right: 270px;
+	height: 30px;
+	transition: height .5s;
+}
+
+#link2:hover
+{
+	background: #1C6EA4;
+	height: 50px;
+}
+
+#link2:active 
+{
+background: #FFFFFF;
+}
+
+
+/*DONATE BUTTON*/
+#donate
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	position: absolute;
+	right: 6px;
+	bottom: 0;
+	height: 30px;
+	transition: height .5s;
+	
+}
+#donate:hover
+{
+	background: #1C6EA4;
+	height: 50px;
+}
+
+#donate:active 
+{
+background: #FFFFFF;
+}
 
 #funraisers {
   font-family: Arial, Helvetica, sans-serif;
