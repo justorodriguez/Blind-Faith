@@ -19,7 +19,7 @@
 
 	<body>
 		
-		<div>
+		<div class="dono">
 			
 			<div class="headline">
 			<h1>Make a Donation</h1>
@@ -67,13 +67,23 @@
 						<div class="dropdown">
 			  <button onclick="myFunction()" class="dropbtn">Payment Option</button>
 			  <div id="myDropdown" class="dropdown-content">
-			    <a href="#home">PAYPAL</a>
-			    <a href="#about">VISA</a>
-			    <a href="#contact">DISCOVER</a>
+			    <a href="#pay1">PAYPAL</a>
+			    <a href="#pay2">VISA</a>
+			    <a href="#pay3">DISCOVER</a>
 			  </div>
 			</div>
 
-			
+			<div class="cardInfo">
+
+				<form action="/action_page.php">
+					<input type="text" id="cardName" placeholder="NAME ON CARDHOLDER" name="Cname"><br><br>
+					<input type="text" id="cardNum" placeholder="CARD NUMBER" name="Cnum"><br><br>
+					<input type="text" id="address" placeholder="ADDRESS" name="addr"><br><br>
+					<input type="text" id="Scode" placeholder="SECURITY CODE" name="secCode"><br><br>
+				</form>
+				<button class="donoteBt">DONATE</button>
+				
+			</div>
 
 			</div>
 			
