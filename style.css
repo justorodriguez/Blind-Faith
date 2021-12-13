@@ -1,0 +1,237 @@
+body
+{
+	background: #f2ede9;
+
+	/*
+	background: #FFFFFF;
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #55A2A4 50%, #25BCC5 100%);
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #55A2A4 50%, #25BCC5 100%);
+	background: linear-gradient(to bottom, #FFFFFF 0%, #55A2A4 50%, #25BCC5 100%);
+	*/
+}
+
+footer
+{
+	background-color: #9c94f7;
+	
+	left: 0;
+	bottom: 0;
+	height: 250px;
+	width: 100%;
+}
+
+.header
+{
+	display: flex;	
+	width: 99%;
+	flex-wrap: wrap;
+	margin-top: 0%;
+	margin-left: 10px;
+	height: 100px;
+	position: sticky;
+}
+
+#cara
+{
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+#logo
+{
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	left: 5px;
+
+
+}
+
+/*LOGIN BUTTON*/
+#link1
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	bottom: 0;
+	right: 123px;
+	height: 50px;
+	transition: height .5s;
+	
+}
+
+#link1:hover
+{
+	background: #1C6EA4;
+	height: 75px;
+}
+
+#link1:active 
+{
+background: #FFFFFF;
+}
+
+
+
+/*JOIN BUTTON*/
+#link2
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	bottom: 0;
+	right: 227px;
+	height: 50px;
+	transition: height .5s;
+}
+
+#link2:hover
+{
+	background: #1C6EA4;
+	height: 75px;
+}
+
+#link2:active 
+{
+background: #FFFFFF;
+}
+
+
+/*DONATE BUTTON*/
+#donate
+{
+	background-image: linear-gradient(rgb(28, 110, 164) 0%, rgb(255, 255, 255) 100%);
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 40px 40px 0px 0px;
+	position: absolute;
+	right: 6px;
+	bottom: 0;
+	height: 50px;
+	transition: height .5s;
+	
+}
+#donate:hover
+{
+	background: #1C6EA4;
+	height: 75px;
+}
+
+#donate:active 
+{
+background: #FFFFFF;
+}
+
+
+.midsec
+{
+	display: flex;
+	
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	position: relative;
+
+
+}
+
+.parallelogram1 {
+	width: 150px;
+	height: 50px;
+	transform: skew(20deg);
+	background: linear-gradient(rgb(255, 255, 255) 0%, rgb(28, 110, 164) 100%);
+	position: absolute;
+	top: 15px;
+	left: 0;
+	opacity: .5;
+}
+
+.parallelogram2 {
+	width: 200px;
+	height: 50px;
+	transform: skew(20deg);
+	background: linear-gradient(rgb(255, 255, 255) 0%, rgb(28, 110, 164) 100%);
+	position: absolute;
+	top: 17px;
+	left: 0;
+	opacity: .5;
+}
+
+#about
+{
+	font-family: Impact, Charcoal, sans-serif;
+	
+	display: inline-block;
+	margin: 20px;	
+	width: 20%;
+	height: 500px;
+	padding: 10px;
+	left: 5%;
+	margin-left: 15%;
+	background: #FFFFFF;
+	position: relative;
+}
+
+#mission
+{
+	font-family: Impact, Charcoal, sans-serif;
+	
+	display: inline-block;
+	margin: 20px;
+	width: 20%;	
+	height: 500px;
+	padding: 10px;
+	margin-left: 20%;
+	background: #FFFFFF;
+	position: relative;
+	left: 5%;
+	
+
+}
+
+#ab
+{
+	font-size: 25px;
+}
+
+#mState
+{
+	font-size: 25px;
+}
+
+
+
+/*FOOTER LINKS*/
+.CL
+{
+	margin-left: 50%;
+	padding-top: 50px;	
+}
+
+.AL
+{
+	margin-left: 50%;
+	padding-top: 50px;
+}
+
+.FL
+{
+	margin-left: 50%;
+	padding-top: 50px;
+	
+}
